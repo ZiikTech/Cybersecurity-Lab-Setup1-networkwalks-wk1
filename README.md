@@ -120,7 +120,7 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 
-![](2-screenshot-network-settings-1.png)
+![NAT Network Creation](NATnetwork-creation.png)
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
@@ -133,6 +133,8 @@ This will allow future attacker and target VMs to communicate within the lab.
 
 The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
 
+![Kali Machine Launch](kali-machine-launch.png)
+
 The VM network adapter was configured as follows:
 
 ```text
@@ -141,16 +143,15 @@ Attached to: NAT Network
 Network:     NatNetwork1
 Adapter Type: Intel PRO/1000 MT Desktop
 ```
+![Kali NAT Configuration](kali-NAT-configuration.png)
 
 The VM was allocated:
 
 ```text
 RAM: 2048 MB
 ```
-![](3-screenshot-kali-linux.png)
+![Kali Machine General Config](kali-machine-general-config.png)
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
-
-
 
 ---
 
@@ -166,10 +167,8 @@ Subnet Mask: 255.255.255.0
 Gateway: 10.0.0.1
 DNS: 10.0.0.1
 ```
-
+![IP Assigned Manually to Kali Machine](ip-assigned-manually-to-kali-machine.png)
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
-
-![](4-screenshot-kali-network-settings.png)
 
 ---
 
@@ -182,6 +181,7 @@ Example snapshot name:
 ```text
 My first linux machine installation
 ```
+![Kali Machine Snapshot Created](kali-machine-snapshot-created.png)
 
 The snapshot represents the clean baseline of the laboratory.
 
@@ -231,6 +231,10 @@ One workaround used during this lab was:
 ```bash
 sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 ```
+![Kali Internet Restored with nmcli Command](kali%20internet%20restored%20with%20nmcli%20command.png)
+
+Internet restored after a workaround
+![Internet Connection Restored](Internet-connection-restored.png)
 
 After applying the configuration change, the network connection was restored.
 
@@ -241,6 +245,9 @@ After applying the configuration change, the network connection was restored.
 ## Problem 2. VirtualBox VT-x / Virtualization Error
 
 During the installation of Oracle VirtualBox, the installation process failed and could not proceed successfully.
+
+![Error Installing VirtualBox](error-installing-virtual-box.png)
+
 
 **Cause**
 After reviewing the error message, it was discovered that the required Microsoft Visual C++ Redistributable for Visual Studio 2015-2022 (v14) was not installed on the host machine. Since VirtualBox depends on certain Microsoft Visual C++ runtime components, the absence of this prerequisite prevented the installation from completing successfully.
