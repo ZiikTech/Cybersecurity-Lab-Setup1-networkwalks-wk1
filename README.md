@@ -302,7 +302,7 @@ This laboratory is intended strictly for education purposes only.
 - **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
 - **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
 - **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
-- **Microsoft visual c++:** (https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170).
+- **Microsoft visual c++:** [https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 ---
 
 # 👤 Author
@@ -310,7 +310,7 @@ This laboratory is intended strictly for education purposes only.
 **Isaac Afolabi**\
 Cybersecurity Professional B084
 
-LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/waqaskarim/)
+LinkedIn: [https://www.linkedin.com/in/isaac-afolabi-oluwapelumi/](https://www.linkedin.com/in/isaac-afolabi-oluwapelumi/)
 
 ---
 
