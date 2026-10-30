@@ -69,7 +69,7 @@ It can be used for activities such as:
 
 ## 🏗️ Lab Architecture
 
-![]([2-screenshot-network-settings-1.png](https://github.com/ZiikTech/Cybersecurity-Lab-Setup1-networkwalks-wk1/blob/main/lab%20architecture.png))
+![](lab architecture.png)
 
 Additional target machines can be added to the same virtual network in future projects.
 
