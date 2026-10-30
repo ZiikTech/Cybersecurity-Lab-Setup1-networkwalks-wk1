@@ -69,6 +69,8 @@ It can be used for activities such as:
 
 ## 🏗️ Lab Architecture
 
+https://github.com/ZiikTech/Cybersecurity-Lab-Setup1-networkwalks-wk1/blob/main/lab%20architecture.png
+
 ![](1-screenshot-title-image.png)
 
 
