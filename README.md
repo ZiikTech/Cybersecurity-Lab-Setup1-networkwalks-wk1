@@ -69,7 +69,8 @@ It can be used for activities such as:
 
 ## 🏗️ Lab Architecture
 
-https://github.com/ZiikTech/Cybersecurity-Lab-Setup1-networkwalks-wk1/blob/main/lab%20architecture.png
+<img width="1346" height="616" alt="lab architecture" src="https://github.com/user-attachments/assets/73d75322-92a9-46eb-a868-d5020b9cb75d" />
+
 
 ![](1-screenshot-title-image.png)
 
